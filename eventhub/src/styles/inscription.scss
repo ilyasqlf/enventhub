@@ -1,0 +1,110 @@
+.signup-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Centrar el contenido */
+  }
+  
+  .forms-container {
+    background-color:teal;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 700px; /* Para limitar el tamaño del formulario */
+    color: whitesmoke;
+    margin: 0 auto;
+   ;
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: white;
+    text-align: left;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .checkbox-container input {
+    margin-right: 10px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #233140;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+//   .conditions-link {
+//     text-align: right;
+//     margin-top: 10%;
+//   }
+  
+//   .conditions-link a {
+//     text-decoration: none;
+//     color:#040f1ac9;
+   
+//   }
+  
+//   .conditions-link a:hover {
+//     text-decoration: underline;
+//   }
+  
+  .photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 auto;
+  }
+  
+  .photo-placeholder {
+    color: white;
+    font-size: 18px;
+  }
+
+  .input-container-group {
+    display: flex;
+    justify-content: space-between;
+    // gap: 20px;
+   
+  }
+
+
+
+
+
+
+
+
+

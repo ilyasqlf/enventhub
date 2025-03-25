@@ -1,0 +1,110 @@
+body {
+    background: #ffe4d1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Welcome container */
+.welcome-container {
+    display: flex; /* Flexbox para alinearlos horizontalmente */
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Estilo del bloque "Welcome Back" */
+.welcome-block {
+    background-color: whitesmoke;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra sutil */
+}
+
+h1 {
+    font-size: 60px;
+    color: #113202;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #555555;
+}
+
+/* Estilo del formulario de login */
+.form-container {
+    background-color: teal;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    padding: 15px;
+    background-color: #113202;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+}
+
+button:hover {
+    background-color: #225b4a;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    display: none; /* Oculta el botón de submit tradicional */
+   
+}
+.forgot-password {
+    text-align: center; /* Centra el enlace debajo */
+    margin-top: 10px; /* Espacio encima */
+}
+
+.forgot-password a {
+    color: #040f1ac9; /* Color azul atractivo */
+    text-decoration: none; /* Elimina el subrayado */
+    font-size: 16px; /* Tamaño de fuente adecuado */
+}
+
+.forgot-password a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+    cursor: pointer; /* Cambia el cursor para mostrar que es clickeable */
+}
