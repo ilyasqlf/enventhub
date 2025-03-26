@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #FFE4D1;
 }
 
 .App-logo {
@@ -11,6 +12,16 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 180px; /* Ajustez la taille du logo selon vos besoins */
+  margin-top: -10px;
 }
 
 .App-header {
@@ -25,7 +36,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +47,79 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #61dafb;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+nav {
+  background-color: #FEC399;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(67, 97, 238, 0.2);
+  height: 80px;
+}
+
+nav div {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #88000250;
+  border-radius: 10px;
+}
+
+nav a.active {
+  background-color: #88000250;
+  border-radius: 10px;
+}
+
+.register-button {
+  background-color: #880010; /* Couleur spécifique pour le bouton S'inscrire */
+  color: white;
+  border-radius: 10px;
+}
+
+.register-button:hover {
+  background-color: #88000246;
+}
+
+.login-button {
+  background-color: #880002; /* Couleur spécifique pour le bouton Se connecter */
+  color: white;
+  border-radius: 10px;
+}
+
+.login-button:hover {
+  background-color: #88000250;
+}
+
