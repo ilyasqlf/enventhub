@@ -1,0 +1,19 @@
+/* EventDetails.css */
+.event-details-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-details-container h1 {
+  margin-bottom: 1rem;
+}
+
+.event-details-container img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
