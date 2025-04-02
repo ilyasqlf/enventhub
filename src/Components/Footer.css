@@ -1,0 +1,147 @@
+/* Footer.css */
+footer {
+    background: linear-gradient(135deg, #FEC399, #ff8f3e);
+    color: #ffffff;
+    padding: 4rem 2rem;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .footer-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .footer-logo-container {
+    width: 180px;
+    height: 180px;
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 50%;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-logo-container:hover {
+    transform: rotate(9deg) scale(1.1);
+  }
+  
+  .footer-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .footer-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .footer-link {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .footer-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #880002;
+    transition: width 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #ffffff;
+    transform: translateX(8px);
+  }
+  
+  .footer-link:hover::after {
+    width: 100%;
+  }
+  
+  .footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2rem;
+  }
+  
+  .social-title {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .social-item {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .social-item:hover {
+    background: #880002;
+    transform: translateY(-3px);
+  }
+  
+  .social-item i {
+    font-size: 1.2rem;
+  }
+  
+  .footer-bottom {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      grid-template-columns: 1fr;
+      text-align: center;
+      gap: 3rem;
+    }
+  
+    .footer-nav {
+      grid-template-columns: 1fr;
+    }
+  
+    .footer-social {
+      align-items: center;
+    }
+  
+    .footer-link:hover {
+      transform: translateX(0);
+    }
+  }
