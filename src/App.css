@@ -1,0 +1,159 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+
+.App {
+  text-align: center;
+  background-color: #FFE4D1;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 180px; /* Ajustez la taille du logo selon vos besoins */
+  margin-top: -10px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #000000;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #61dafb;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+nav {
+  background: linear-gradient(135deg, #FEC399, #ff8f3e) ; /* Couleur spécifique pour la barre de navigation */
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(67, 97, 238, 0.2);
+  height: 68px;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+nav div {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #88000250;
+  border-radius: 10px;
+}
+
+nav a.active {
+  background-color: #88000250;
+  border-radius: 10px;
+}
+
+.register-button {
+  background-color: #880010; /* Couleur spécifique pour le bouton S'inscrire */
+  color: white;
+  border-radius: 10px;
+}
+
+.register-button:hover {
+  background-color: #88000246;
+}
+
+.login-button {
+  background-color: #880002; /* Couleur spécifique pour le bouton Se connecter */
+  color: white;
+  border-radius: 10px;
+}
+
+.login-button:hover {
+  background-color: #88000250;
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: #880002;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+  margin-top: 0.2rem;
+}
+
+.logout-button i {
+  font-size: 1.2rem;
+}
+
+.logout-button:hover {
+  color: #880002;
+}
+
+.welcome-message {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+ 
+}
