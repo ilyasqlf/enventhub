@@ -1,4 +1,4 @@
-import db from '../config/mysql.js'; // ✅ Assure-toi que le chemin est correct
+import db from '../config/mysql.js'; 
 
 export function sendRappelNotifications() {
   console.log(" Vérification des événements pour envoi de notifications...");
@@ -16,7 +16,7 @@ export function sendRappelNotifications() {
     } else {
       results.forEach(event => {
         console.log(` Rappel : L'événement "${event.nom}" a lieu demain à ${event.lieu}.`);
-        // Ici tu pourrais envoyer un e-mail ou une notification en base si besoin
+       
       });
     }
   });
